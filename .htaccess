@@ -1,0 +1,10 @@
+#File bảo vệ htaccess
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+ErrorDocument 404 /404.html
+
+RewriteEngine on
+
+RewriteRule ^home index.html
