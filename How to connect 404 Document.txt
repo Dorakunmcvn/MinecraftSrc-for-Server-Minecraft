@@ -1,4 +1,0 @@
-Create file .htaccess
-Type :
-ErrorDocument 404 /404.html
-Save your file
