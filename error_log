@@ -1,5 +1,0 @@
-[19-Aug-2021 16:36:49 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/tcceldoradoga/video01izsans/Iz_Shower/db-config.php:6
-Stack trace:
-#0 /home/tcceldoradoga/video01izsans/napthe.php(8): include()
-#1 {main}
-  thrown in /home/tcceldoradoga/video01izsans/Iz_Shower/db-config.php on line 6
