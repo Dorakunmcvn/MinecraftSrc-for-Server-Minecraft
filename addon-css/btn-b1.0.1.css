@@ -1,0 +1,34 @@
+/* Button Addon For HTML Coder */
+/*  Version : 1.0.1  */
+/* Author : Doan Bao  */
+.btn{background: rgb(51, 51, 51);border: none;border-radius: 5px;height: 30px;width: 100px;color: white;font-weight: bold;font-family: Arial;}
+.btn:hover {background: gray;}
+.btn:active {background: black;}
+.btn-success {background: lime;}
+.btn-failed {background: red;}
+.btn-danger {background: orange;}
+.btn-warning {background: yellow;}
+.btn-warn {background: yellow;}
+.btn-border {border: 1px solid black;}
+.btn-link {background: blue;}
+.btn-nice {background: cyan;}
+.btn-big-font {font-size: 20px;}
+.btn-border {border: 1px solid gray;}
+.btn-border:hover {border: none;}
+.btn-border-success {border: 1px solid limegreen;}
+.btn-border-success:hover {border: none;}
+.btn-border-danger {border: 1px solid orangered;}
+.btn-border-danger:hover {border: none;}
+.btn-border-failed {border: 1px solid orange;}
+.btn-border-failed:hover {border: none;}
+.xbtn {background-color: rgb(51, 51, 51);border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;-webkit-transition-duration: 0.4s; /* Safari */transition-duration: 0.4s;box-shadow: 0 1px 1px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);outline: none;}
+.xbtn-success {background: #4CAF50;}
+.xbtn:hover {background-color: darkgray;}
+.xbtn:active {background-color: black;}
+.xbtn-failed {background: red;}
+/* <a></a> Button  */
+.btn-a {text-decoration: none;background: rgb(51, 51, 51);border: none;border-radius: 5px;height: 30px;width: 100px;color: white;font-weight: bold;font-family: Arial;padding: 6.5px 10px;}
+.btn-a:hover {background: gray;}
+.btn-a:active {background: black;}
+.btn-a-success {background: lime;}
+.btn-a-border {border: 1px solid black;}
