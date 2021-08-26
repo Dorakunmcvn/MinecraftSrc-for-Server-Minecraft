@@ -1,0 +1,13 @@
+        .border-content {
+            background: white;
+            border: 3px solid black;
+            margin: 150px;
+            padding: 50px;
+        }
+        .border-content #title {
+            font-family: Arial;
+            color: red;
+        }
+        .border-content #description {
+            font-family: Arial;
+        }

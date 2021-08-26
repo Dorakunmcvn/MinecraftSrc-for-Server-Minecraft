@@ -1,0 +1,30 @@
+            #admin-login-title {
+                text-align: center;
+                margin: 50px;
+                font-family: Arial;
+                color: red;
+            }
+            .login-border {
+                border: 1px solid black;
+                padding: 20px;
+                margin: 200px;
+            }
+            .login-border h3 {
+                color: red;
+                font-family: Arial;
+            }
+            .login-border label {
+                font-family: Arial;
+            }
+            .login-border #tk {
+                border: 1px solid black;
+                padding: 10px;
+            }
+            .copyright {
+                background: gray;
+                margin: 1px;
+                padding: 20px;
+            }
+            .copyright p {
+                text-align: center;
+            }

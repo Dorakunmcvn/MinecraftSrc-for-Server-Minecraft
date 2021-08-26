@@ -1,0 +1,9 @@
+            header {
+                position: relative;
+            }
+            .head-content a {
+                text-transform: uppercase;
+            }
+            .head-content ul {
+                padding: 1px;
+            }

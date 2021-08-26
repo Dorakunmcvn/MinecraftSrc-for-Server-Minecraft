@@ -1,0 +1,26 @@
+/* Button Addon For HTML Coder */
+/*  Version : 1.0  */
+/* Author : Doan Bao  */
+.btn{background: rgb(51, 51, 51);border: none;border-radius: 5px;height: 30px;width: 100px;color: white;font-weight: bold;font-family: Arial;}
+.btn:hover {background: gray;}
+.btn:active {background: black;}
+.btn-success {background: lime;}
+.btn-failed {background: red;}
+.btn-danger {background: orange;}
+.btn-warning {background: yellow;}
+.btn-warn {background: yellow;}
+.btn-border {border: 1px solid black;}
+.btn-link {background: blue;}
+.btn-nice {background: cyan;}
+.btn-big-font {font-size: 20px;}
+.btn-border {border: 1px solid gray;}
+.btn-border:hover {border: none;}
+.btn-border-success {border: 1px solid limegreen;}
+.btn-border-success:hover {border: none;}
+.btn-border-danger {border: 1px solid orangered;}
+.btn-border-danger:hover {border: none;}
+.btn-a {text-decoration: none;background: rgb(51, 51, 51);border: none;border-radius: 5px;height: 30px;width: 100px;color: white;font-weight: bold;font-family: Arial;padding: 6.5px 10px;}
+.btn-a:hover {background: gray;}
+.btn-a:active {background: black;}
+.btn-a-success {background: lime;}
+.btn-a-border {border: 1px solid black;}
