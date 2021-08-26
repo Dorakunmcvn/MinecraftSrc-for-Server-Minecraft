@@ -6,5 +6,16 @@ Deny from all
 ErrorDocument 404 /404.html
 
 RewriteEngine on
+# Xem và chỉnh sửa liên kết nếu muốn
+RewriteRule ^home index.php
+RewriteRule ^thong-bao thongbao.php
+RewriteRule ^giftcode giftcode.php
+RewriteRule ^nap-the napthe.php
+RewriteRule ^event event.php
 
-RewriteRule ^home index.html
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “alt-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
