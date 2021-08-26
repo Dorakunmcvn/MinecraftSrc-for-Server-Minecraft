@@ -5,43 +5,7 @@
 // By Đoàn Bảo
 ?>
 <?php
-include("Iz_Shower/db-config.php");
-if(isset($_POST['submit'])) {
-        if(!isset($_POST['username']) || !isset($_POST['card_type']) || !isset($_POST['card_amount']) || !isset($_POST['card_serial']) || !isset($_POST['card_code'])) {
-            $err = '<script>alert("Chưa đầy đủ thông tin ! Vui lòng thử lại !"); </script>';
-            echo $err;
-        }else{
-            $name = $_POST['username'];
-            $card_type = $_POST['card_type'];
-            $card_amount = $_POST['card_amount'];
-            $card_serial = $_POST['card_serial'];
-            $card_code = $_POST['card_code'];
-            
-            if($name == '' || $card_type == '' || $card_amount == '' || $card_serial == '' || $card_code == '') {
-                $err = '<script>alert("Chưa đầy đủ thông tin ! Vui lòng thử lại !"); </script>';
-                echo $err;
-            
-            //if(strlen($type) < 6 || strlen($type) > 30 || strlen($amount) < 6|| strlen($amount) > 30){
-                // $err = 'Bạn cần nhập 10 > 20 kí tự';
-            }else{
-                include 'Iz_Shower/db-config.php'; 
-            $check = mysql_result(mysql_query("SELECT COUNT(*) FROM `gachthe` WHERE `code`='$card_code' AND `serial`='$card_serial'"), 0);
-				if(empty($card_code) || empty($card_serial)) {
-				$err = '<script>alert("Chưa đầy đủ thông tin ! Vui lòng thử lại !"); </script>';
-				echo $err;
-				}else{ if($check >= 1){
-				    $err = '<script>alert("Đã tồn tại thẻ này !"); </script>';
-				}else{
-				$name = $_POST['username'];  
-				$tr = 'Đợi duyệt';
-			mysql_query("INSERT INTO `gachthe` (`code`, `serial`, `menhgia`, `loaithe`, `uid`, `tinhtrang`) VALUES ('".$card_code."','".$card_serial."','".$card_amount."','".$card_type."','".$name."','".$tr."')");
-				$err = '<script>alert("Thẻ của bạn đang đợi duyệt !"); </script>';
-				echo $err;
-				}
-				}
-            }
-        }
-    }
+include("Iz_Shower/napthe.php");
 ?>
 <?php
 require("Iz_Index/head.php");
@@ -55,16 +19,18 @@ require("Iz_Index/head.php");
     <p id="all-p-card">- CONTENT -</p>
     <div class="border-content">
         <h1 id="title">NẠP THẺ</h1>
-        <p id="description">Nạp thẻ chậm tại đây, nạp xong hãy đợi trong 5 - 10 phút (chậm).</p>
+        <?php 
+        if ($donate_form == true) {
+            echo '<br /><p id="description">Nạp thẻ chậm tại đây, nạp xong hãy đợi trong 5 - 10 phút (chậm).</p></br>
         <form method="POST">
             <br />
             <label for="username">Tên Người Chơi :</label>
             <br />
-            <input type="text" name="username" />
+            <input type="text" name="username" class="form" />
             <br />
             <label for="card_type">Loại thẻ :</label>
             <br />
-            <select name="card_type">
+            <select name="card_type" class="select">
               <option value="">Chọn nhà mạng</option>
               <option value="0">Viettel</option>
               <option value="1">Vinaphone</option>
@@ -75,7 +41,7 @@ require("Iz_Index/head.php");
             <br />
             <label for="card_amount">Mệnh giá :</label>
             <br />
-            <select name="card_amount">
+            <select name="card_amount" class="select">
               <option value="">Chọn mệnh giá</option>
               <option value="10000">10,000đ</option>
               <option value="20000">20,000đ</option>
@@ -89,11 +55,11 @@ require("Iz_Index/head.php");
             <br />
             <label for="card_code">Mã thẻ :</label>
             <br />
-            <input type="text" name="card_code" />
+            <input type="number" name="card_code" class="form" />
             <br />
             <label for="card_serial">Số Serial :</label>
             <br />
-            <input type="text" name="card_serial" />
+            <input type="number" name="card_serial" class="form" />
             <br />
             <br />
             <i>Bấm vào đây để gửi thẻ : </i>
@@ -104,7 +70,11 @@ require("Iz_Index/head.php");
             <br />
             <b style="color:red;">Lịch sử gửi thẻ</b>
             <br />
-            <br />
+            <br />';
+        } else {
+            echo '<br /><p id="description" style="color: red;">Tính năng đang bảo trì</p><br />';
+        }
+        ?>
             <table class="table table-hover">
    <tr>
 	   <th> STT </th>

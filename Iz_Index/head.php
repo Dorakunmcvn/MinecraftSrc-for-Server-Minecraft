@@ -1,6 +1,7 @@
 <?php
 // Code by Đoàn Bảo
 require("Iz_Shower/settings.php");
+if ($bao_tri == false) {
 ?>
 <!DOCTYPE html>
 <!--
@@ -17,7 +18,9 @@ Code by Đoàn Bảo
         <link rel="stylesheet" type="text/css" href="./css/head-design.css" crossorigin="anonymous"/>
         <link rel="stylesheet" type="text/css" href="./css/mod.css" crossorigin="anonymous"/>
         <link rel="stylesheet" type="text/css" href="./css/xDx.css" crossorigin="anonymous"/>
+        <link rel="stylesheet" type="text/css" href="./css/donate.css" crossorigin="anonymous"/>
         <link rel="stylesheet" type="text/css" href="./addon-css/btn.css" crossorigin="anonymous"/>
+        <link rel="stylesheet" type="text/css" href="./addon-css/fa/css/all.css" crossorigin="anonymous"/>
     </head>
     <body>
         <header class="head-content">
@@ -44,3 +47,6 @@ Code by Đoàn Bảo
         </center>
         </div>
         </div>
+        <?php } else {
+         header("Location: baotri.php");
+        }?>

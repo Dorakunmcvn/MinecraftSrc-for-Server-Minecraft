@@ -4,10 +4,10 @@
 // Thông tin source code (Do not edit)
 
 $name = "MinecraftSource Project";
-$version = "v3.5.1";
+$version = "v3.5.2";
 $author = "IzSansVN";
 $demo = "https://video01izsans.shopacceldorado.ga"; // Không cần và cũng không được edit
-$author_github = "https://github.com/Dorakunmcvn";
+$author_github = "https://github.com/IzSansVN";
 
 // Thông tin website
 
@@ -15,11 +15,12 @@ $host = "https://video01izsans.shopacceldorado.ga";
 $logo_location = "../beluga.PNG";
 $copyright = "Design by Đoàn Bảo - GitHub : $author_github";
 
-// Tài khoản admin
-$admin_user = "doangiabao";
-$admin_pass = "18112009tT";
+// Vấn đề của website
+$bao_tri = false; // Nếu true thì website sẽ chuyển về bảo trì
 
-// Trước đây phần Database, MySQL nó nằm ở đây nhưng tôi dời nó sang chỗ khác cho tiện.
+// Tài khoản admin
+$admin_user = "admin";
+$admin_pass = "admin";
 
 // Phần đầu
 
@@ -65,11 +66,12 @@ $news = "Không có gì nổi bật.";
 
 // Giftcode Content
 
-$gift_line = "Giftcode của tháng : ????";
+$gift_line = "Giftcode của tháng : CHICOLAMTHIMOICOAN";
 $gift_line_2 = "Vui lòng điền vào biểu mẫu : <a style='text-decoration: none; color: red; font-family: Arial;' href='../'>Tại đây</a>";
 
 // Modal Show Nofication
 
+$modal_thongbao = true; // Nếu là false sẽ không hiển thị thông báo
 $btnOpen = "Mở Thông Báo";
 $noidung = "<p style='color: red;'>Code by $author <br />Tên: $name, Phiên bản $version. <br />Tải về tại : <a style='text-decoration: none;' href='../'><span style='color: blue;'>Link tải</span></a></p>";
 $btnOK = "OK";
@@ -78,3 +80,6 @@ $btnClose = "Close";
 
 // Event Content
 $event_desc = "Không có gì cả.";
+
+// Donate Content
+$donate_form = true; // Mặc định là true, nếu là false sẽ không có form nạp thẻ
