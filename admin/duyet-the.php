@@ -1,20 +1,6 @@
 <?php
 // Code by Đoàn Bảo - Check Card Panel
-include '../Iz_Shower/db-config.php';
-if(isset($_GET[xoa])){
-$idfbxoa = $_GET['xoa'];
-$idfbxoa = (int)$idfbxoa;
-	mysql_query("DELETE FROM `gachthe` WHERE `gachthe`. `id` = '".intval($_GET[xoa])."'");
-    echo '<meta http-equiv=refresh content="0; URL=/admin/duyet-the.html">';
-	die('<script>alert("Xóa Thành Công"); </script>');
-					}
-if(isset($_GET[done])){
-$uid = $_SEESION['username'];
-$tinhrang = "Thành công";
-mysql_query("UPDATE `gachthe` SET `tinhtrang` = '".$tinhrang."' WHERE `id` = '" .intval($_GET[done]). "'");
-echo '<meta http-equiv=refresh content="0; URL=/admin/duyet-the.html">';
-echo('<script>alert("Check Thành Công"); </script>');
-}
+require('check-card.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -41,7 +27,7 @@ echo('<script>alert("Check Thành Công"); </script>');
    </tr>
 <tbody>
 <?php
-include 'config.php';
+include '../Iz_Shower/db-config.php';
 $getloaithe = array("Viettel", "Vinaphone", "Mobifone");
 $TOM_result = mysql_query("SELECT * FROM `gachthe` WHERE `id` ORDER by id DESC LIMIT $start, $kmess");
 while($gettom = mysql_fetch_assoc($TOM_result)){ ?>
