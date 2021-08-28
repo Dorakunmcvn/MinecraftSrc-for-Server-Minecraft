@@ -1,13 +1,13 @@
 # Hướng dẫn sử dụng
 - Up Code lên Host là được
 * Sản phẩm chỉ mang tính chất tham khảo
-PHẦN NẠP THẺ :
+# PHẦN NẠP THẺ :
 - B1. Tạo một database
 - B2. Tạo một user và cho nó vào database (Nhớ cho user full quyền)
 - B3. Vào PhpMyAdmin, up file .sql vào database
 - B4. Config Database ở Iz_Shower/db-config.php
 - Vậy là xong.
-PHẦN ĐĂNG KÝ (Kết nối AuthMe với MySQL) :
+# PHẦN ĐĂNG KÝ (Kết nối AuthMe với MySQL) :
 * Lưu ý : server.pro sẽ chặn kết nối nên đừng làm trên đó
 - B1. Làm bước 1, 2 và 3 của phần Nạp Thẻ
 - B2. Config Database ở IzShower/AuthMeController.php (Dòng 120 - 123)
