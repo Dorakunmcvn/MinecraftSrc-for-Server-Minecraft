@@ -27,7 +27,7 @@ require('check-card.php');
    </tr>
 <tbody>
 <?php
-include '../Iz_Shower/db-config.php';
+include '../Iz_Shower/mysql-connect.php';
 $getloaithe = array("Viettel", "Vinaphone", "Mobifone");
 $TOM_result = mysql_query("SELECT * FROM `gachthe` WHERE `id` ORDER by id DESC LIMIT $start, $kmess");
 while($gettom = mysql_fetch_assoc($TOM_result)){ ?>

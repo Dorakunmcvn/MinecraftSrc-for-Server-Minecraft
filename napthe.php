@@ -11,6 +11,7 @@ include("Iz_Shower/napthe.php");
 require("Iz_Index/head.php");
 ?>
 <style>
+/* Đây là code của phiên bản cũ */
     #btn-gui-the:hover {background: gray;color: white;border: 1px solid black;} /* Hiệu ứng Hover */
     #btn-gui-the:active {background: yellow;color: green;} /* Hiệu ứng Active */
 </style>
@@ -87,7 +88,7 @@ require("Iz_Index/head.php");
    </tr>
 <tbody>
 <?php
-include 'Iz_Shower/db-config.php'; 
+include 'Iz_Shower/mysql-connect.php'; 
 $getloaithe = array('Viettel','Vinaphone','Mobifone', 'VietnamMobile', 'Garena');
 $TOM_result = mysql_query("SELECT * FROM `gachthe` WHERE `id` ORDER by id DESC LIMIT $start, $kmess");
 while($gettom = mysql_fetch_assoc($TOM_result)){ ?>

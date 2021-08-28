@@ -34,6 +34,7 @@ Code by Đoàn Bảo
                         <li><a href="<?php echo $link_giftcode; ?>"><?php echo $giftcode; ?></a></li>
                         <li><a href="<?php echo $link_event; ?>"><?php echo $event; ?></a></li>
                         <li><a href="<?php echo $link_donate; ?>"><?php echo $donate; ?></a></li>
+                        <li><a href="<?php echo $link_reg; ?>"><?php echo $reg; ?></a></li>
                 </ul>
             </div>
         </header>
@@ -48,5 +49,5 @@ Code by Đoàn Bảo
         </div>
         </div>
         <?php } else {
-         header("Location: baotri.php");
+         header("Location: bao-tri");
         }?>

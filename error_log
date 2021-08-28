@@ -1,5 +1,67 @@
-[19-Aug-2021 16:36:49 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/tcceldoradoga/video01izsans/Iz_Shower/db-config.php:6
-Stack trace:
-#0 /home/tcceldoradoga/video01izsans/napthe.php(8): include()
-#1 {main}
-  thrown in /home/tcceldoradoga/video01izsans/Iz_Shower/db-config.php on line 6
+[28-Aug-2021 13:44:01 Asia/Ho_Chi_Minh] PHP Warning:  require(authme-api.php): failed to open stream: No such file or directory in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:44:01 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required 'authme-api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:44:32 Asia/Ho_Chi_Minh] PHP Warning:  require(authme-api.php): failed to open stream: No such file or directory in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:44:32 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required 'authme-api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:46:29 Asia/Ho_Chi_Minh] PHP Warning:  require(authme-api.php): failed to open stream: No such file or directory in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:46:29 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required 'authme-api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:48:04 Asia/Ho_Chi_Minh] PHP Warning:  require(authme-api.php): failed to open stream: No such file or directory in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:48:04 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required 'authme-api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:49:21 Asia/Ho_Chi_Minh] PHP Warning:  require(authme-api.php): failed to open stream: No such file or directory in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:49:21 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required 'authme-api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:51:21 Asia/Ho_Chi_Minh] PHP Warning:  require(AuthMeController.php): failed to open stream: No such file or directory in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:51:21 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required 'AuthMeController.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:51:24 Asia/Ho_Chi_Minh] PHP Warning:  require(AuthMeController.php): failed to open stream: No such file or directory in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:51:24 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required 'AuthMeController.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:52:15 Asia/Ho_Chi_Minh] PHP Warning:  require(AuthMeController.php): failed to open stream: No such file or directory in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:52:15 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required 'AuthMeController.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/tcceldoradoga/video01izsans/dangky.php on line 8
+[28-Aug-2021 13:52:43 Asia/Ho_Chi_Minh] PHP Warning:  require(Sha256.php): failed to open stream: No such file or directory in /home/tcceldoradoga/video01izsans/dangky.php on line 11
+[28-Aug-2021 13:52:43 Asia/Ho_Chi_Minh] PHP Fatal error:  require(): Failed opening required 'Sha256.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/tcceldoradoga/video01izsans/dangky.php on line 11
+[28-Aug-2021 13:53:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: host in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:53:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:53:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:53:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbname in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:53:40 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'tcceldoradoga'@'localhost' (using password: NO) in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:55:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: host in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:55:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:55:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:55:04 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbname in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:55:04 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'tcceldoradoga'@'localhost' (using password: NO) in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:55:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: host in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:55:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:55:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:55:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbname in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:55:46 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'tcceldoradoga'@'localhost' (using password: NO) in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:56:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: host in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:56:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: username in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:56:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: password in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:56:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbname in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:56:12 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'tcceldoradoga'@'localhost' (using password: NO) in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:57:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:57:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbpassword in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:57:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbname in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:57:08 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'tcceldoradoga_myproject'@'localhost' (using password: NO) in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:57:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:57:31 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:58:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:58:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbusername in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:58:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbpassword in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:58:32 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbname in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:58:32 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'tcceldoradoga'@'localhost' (using password: NO) in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:58:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:58:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbusername in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:58:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbpassword in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:58:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbname in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 13:58:37 Asia/Ho_Chi_Minh] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'tcceldoradoga'@'localhost' (using password: NO) in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:01:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:01:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:01:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:04:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:04:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:04:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:05:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:05:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:06:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:07:14 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 14:09:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 121
+[28-Aug-2021 17:01:28 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_from_post_or_empty() in /home/tcceldoradoga/video01izsans/dangky.php on line 15
+[28-Aug-2021 17:03:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: dbhost in /home/tcceldoradoga/video01izsans/Iz_Shower/AuthMeController.php on line 120

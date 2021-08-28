@@ -4,7 +4,7 @@
 // Thông tin source code (Do not edit)
 
 $name = "MinecraftSource Project";
-$version = "v3.5.3";
+$version = "v3.5.4";
 $author = "IzSansVN";
 $demo = "https://video01izsans.shopacceldorado.ga"; // Không cần và cũng không được edit
 $author_github = "https://github.com/IzSansVN";
@@ -31,6 +31,8 @@ $thongbao = "Thông báo";
 $giftcode = "Giftcode";
 $event = "Sự kiện";
 $donate = "Nạp thẻ";
+// Update v3.5.4
+$reg = "Đăng Ký";
 
 // Liên kết cho phần trên
 
@@ -39,6 +41,8 @@ $link_thongbao = "../thong-bao";
 $link_giftcode = "../giftcode";
 $link_event = "../event";
 $link_donate = "../nap-the";
+// Update v3.5.4
+$link_reg = "../dang-ky";
 
 // Home Content
 
@@ -55,6 +59,14 @@ $description3 = "Bật Minecraft lên, sau đó nhập ip server : belugamine.xy
 $ip_server = "hypixel.net";
 $ip_port = "25565"; // Có thể để trống, sẽ nhập port tự động là 25565
 $logo_server = "../beluga.PNG";
+
+
+
+
+
+
+// Bla bla...
+
 require("mc_api_connection.php");
 $max_player = "100000";
 $line1 = "Có bao nhiêu người đang tham gia máy chủ ?";
@@ -82,4 +94,4 @@ $btnClose = "Close";
 $event_desc = "Không có gì cả.";
 
 // Donate Content
-$donate_form = true; // Mặc định là true, nếu là false sẽ không có form nạp thẻ
+$donate_form = true; // Mặc định là true, nếu là false thì form nạp sẽ chuyển qua bảo trì

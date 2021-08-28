@@ -1,5 +1,5 @@
 <?php
-include '../Iz_Shower/db-config.php';
+include '../Iz_Shower/mysql-connect.php';
 if(isset($_GET[xoa])){
 $idfbxoa = $_GET['xoa'];
 $idfbxoa = (int)$idfbxoa;
