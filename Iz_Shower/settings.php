@@ -4,7 +4,7 @@
 // Thông tin source code (Do not edit)
 
 $name = "MinecraftSource Project";
-$version = "v3.5.4";
+$version = "v3.5.5";
 $author = "IzSansVN";
 $demo = "https://video01izsans.shopacceldorado.ga"; // Không cần và cũng không được edit
 $author_github = "https://github.com/IzSansVN";
