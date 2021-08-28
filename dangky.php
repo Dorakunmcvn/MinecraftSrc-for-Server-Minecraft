@@ -58,7 +58,7 @@ if (!$was_successful) {
             <br />
             <label for="password">Email :</label>
             <br />
-            <input type="text" name="email"' . htmlspecialchars($email) . 'class="form" />
+            <input type="text" name="email"' . htmlspecialchars($email) . '" class="form" />
             <br />
             <br />
             <br />
