@@ -17,7 +17,7 @@ PHẦN ĐĂNG KÝ (Kết nối AuthMe với MySQL) :
 - mySQLUsername: 'Username đã tạo'
 - mySQLPassword: 'Password của Username đã tạo'
 - mySQLDatabase: 'Tên Database'
--> Những phần trong database cần chỉnh như sau :
+- -> Những phần trong database cần chỉnh như sau :
 - mySQLTablename: users
 - mySQLColumnId: id
 - mySQLColumnName: username
